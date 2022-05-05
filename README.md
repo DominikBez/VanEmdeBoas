@@ -18,15 +18,15 @@ The sequential implementations outperform std::set by a great margin. The parall
 
 ![](./measurements/insertParallel.png)
 
-For more measurement, see [the corresponding foler](./measurements/) or perform your own measurements.
+For more measurement, see [the corresponding folder](./measurements/) or perform your own measurements.
 
 ## Build
 
 Using CMake, make and GCC:
 
-mkdir build
-cd build
-cmake ..
+mkdir build  
+cd build  
+cmake ..  
 make
 
 ## Dependencies
